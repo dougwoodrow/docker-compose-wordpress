@@ -17,3 +17,7 @@ A simple Docker Compose service that supports rapid deployment of Wordpress inst
 The entire Docker Compose service has been built so that it is easy to move an enitre Wordpress installation from host to host.
 
 To allow for the quick movement of instances, data-based volumes have been mounted locally that contain the Wordpress installation files, and the DB's data directory.
+
+## Exporting a database dump
+
+Sometimes it is necessary to perform a database dump, maybe the site is moving to another host that doesn't utilize Docker.
